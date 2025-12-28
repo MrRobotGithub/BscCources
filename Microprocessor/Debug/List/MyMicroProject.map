@@ -1,0 +1,50 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+prevLet                                                                           0x0260       2
+stat                                                                              0x0262       1
+prevX                                                                             0x0263       1
+prevY                                                                             0x0264       1
+_seed                                                                             0x0265       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+trigger                                                                           0x0069E      9
+glcd_on                                                                           0x006A7      8
+goto_col                                                                          0x006AF     28
+goto_row                                                                          0x006CB     13
+goto_xy                                                                           0x006D8     10
+glcd_write                                                                        0x006E2      8
+glcd_clrln                                                                        0x006EA     31
+glcd_clear                                                                        0x00709     16
+putIt                                                                             0x00719     22
+enlarge                                                                           0x0072F     40
+putItSz                                                                           0x00757    127
+glcd_putchar                                                                      0x007D6    136
+glcd_puts                                                                         0x0085E    173
+key                                                                               0x0090B    115
+Namayesh_Kelid_Feshorde_SHode                                                     0x0097E     58
+Namayesh_Kelid_Feshorde_SHode2                                                    0x009B8    175
+show_pattern                                                                      0x00A67     51
+Namayesh_Kelid_Feshorde_SHode3                                                    0x00A9A   1471
+Namayesh_Kelid_Feshorde_SHode4                                                    0x01059     47
+main                                                                              0x01088     73
+getchar                                                                           0x010D1      4
+putchar                                                                           0x010D5      7
+puts                                                                              0x010DC     19
+get_usart_G100                                                                    0x010EF     22
+_scanf_G100                                                                       0x01105    322
+scanf                                                                             0x01247     35
+strlen                                                                            0x0126A     12
+isdigit                                                                           0x01276      9
+isspace                                                                           0x0127F     11
+isxdigit                                                                          0x0128A     15
